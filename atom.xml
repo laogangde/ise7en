@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>时光小站</title>
+  <subtitle>你好，旧时光</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://519wm.cn/"/>
+  <updated>2016-12-12T08:50:17.800Z</updated>
+  <id>http://519wm.cn/</id>
+  
+  <author>
+    <name>心淡.若水</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>我有我的倔强，你喜不喜欢与我无关</title>
+    <link href="http://519wm.cn/I-love-U.html"/>
+    <id>http://519wm.cn/I-love-U.html</id>
+    <published>2016-12-11T04:43:54.000Z</published>
+    <updated>2016-12-12T08:50:17.800Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://images.pexels.com/photos/249101/pexels-photo-249101.jpeg" alt="我和我骄傲的倔强"></p>
+<h2 id="你想放弃么"><a href="#你想放弃么" class="headerlink" title="你想放弃么"></a>你想放弃么</h2><p>一个人开始了孤独之旅<br>我记得你曾说过<br>无怨无悔无愧也无责备<br>纠错缠绕的线圈<br>纷繁复杂的情缘<br>无聊纷杂的日子，输掉所有的日子<br>自己也曾经，拼尽全力应对<br>这世间所有的原罪<br>那些无可奈何的悲剧<br>也许只是梦想的<br>再现而已<br>只是我们<br>空有一腔热血<br>一帘幽梦<br>但却无能为力</p>
+<h2 id="这个世界上"><a href="#这个世界上" class="headerlink" title="这个世界上"></a>这个世界上</h2><p>染上了你倔强的颜色<br>时而温柔<br>时而残酷<br>看起来是那么的<br>鹤立鸡群<br>却又是那么的<br>不合群<br>但是你却不曾<br>刻意的改变过自己<br>只为了迎合这个世界的<br>主流价值</p>
+<h2 id="你对这个世界"><a href="#你对这个世界" class="headerlink" title="你对这个世界"></a>你对这个世界</h2><p>浑然不在意<br>于你而言<br>这个世界<br>终究只是一场<br>过眼云烟的梦境<br>终究只是一段漫长的<br>水中捞月的<br>徒劳而已<br>毕竟<br>毕竟生命<br>也只是一场<br>向死而生的过程<br>但是你却不怎么在意</p>
+<h2 id="有过梦想"><a href="#有过梦想" class="headerlink" title="有过梦想"></a>有过梦想</h2><p>有过希望<br>还有一个爱自己的姑娘<br>那样就似乎已经十分圆满<br>你不再苛求<br>想要这个世界<br>给你更多的馈赠<br>因为你想要的<br>用自己的一双手<br>就已经能够承担<br>你从不奢望这个世界<br>给你更多的补偿<br>毕竟它不欠你<br>也不欠旁人<br>只不过<br>你比他们<br>多了几分看破红尘<br>但又不愿遁入空门的惆怅</p>
+<h2 id="说出口的那些誓言"><a href="#说出口的那些誓言" class="headerlink" title="说出口的那些誓言"></a>说出口的那些誓言</h2><p>已经随风而去<br>憋在心里的那些情话<br>已经沉淀在心<br>重复不断的反常<br>没有章法的日常<br>就算是看不见的隧道<br>也要勇往直前<br>又或者是追不上的远方<br>也要引体向上<br>那都是我<br>我行我素<br>却又骄傲倔强的<br>模样</p>
+<h2 id="至于你"><a href="#至于你" class="headerlink" title="至于你"></a>至于你</h2><p>喜欢不喜欢<br>那都与我无关<br>我就是我<br>一个都已经二十七了<br>却还在做梦的<br>男子汉</p>
+<p>Via／<a href="http://www.jianshu.com/p/219ca7aac67e#" target="_blank" rel="external">幻梦邪魂</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://images.pexels.com/photos/249101/pexels-photo-249101.jpeg&quot; alt=&quot;我和我骄傲的倔强&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;你想放弃么&quot;&gt;&lt;a href=&quot;#你想放弃么&quot; class=&quot;he
+    
+    </summary>
+    
+      <category term="随笔" scheme="http://519wm.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="倔强" scheme="http://519wm.cn/tags/%E5%80%94%E5%BC%BA/"/>
+    
+      <category term="随笔" scheme="http://519wm.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://519wm.cn/hello-world.html"/>
+    <id>http://519wm.cn/hello-world.html</id>
+    <published>2016-12-10T05:56:31.000Z</published>
+    <updated>2016-12-12T08:53:24.332Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
