@@ -602,7 +602,17 @@
               <i class="fa fa-rss"></i>
               RSS
             </a>
-			 <a title="收藏到书签，偶尔High一下^_^" rel="alternate" class="mw-harlem_shake_slow wobble shake" href='javascript:(function() {
+			 <!-- 自定义High一下的功能 -->
+  <a title="把这个链接拖到你的工具栏中,任何网页都可以High" href='javascript:(
+    function go() {
+
+
+    var songs = [
+                "http://7pumyu.com1.z0.glb.clouddn.com/Harlem-Shake.mp3",
+                "http://7pumyu.com1.z0.glb.clouddn.com/%E7%BC%98%E4%BB%BD%E4%B8%80%E9%81%93%E6%A1%A5.mp3"
+    ];
+
+    
     function c() {
         var e = document.createElement("link");
         e.setAttribute("type", "text/css");
@@ -671,30 +681,21 @@
         var t = m(e);
         return t >= w && t <= b + w
     }
- 
+
     function S() {
-        var e = document.createElement("audio");
-        e.setAttribute("class", l);
-        e.src = i;
-        e.loop = false;
-        e.addEventListener("canplay", function() {
-            setTimeout(function() {
-                x(k)
-            }, 500);
-            setTimeout(function() {
-                N();
-                p();
-                for (var e = 0; e < O.length; e++) {
-                    T(O[e])
-                }
-            }, 15500)
-        }, true);
-        e.addEventListener("ended", function() {
+        var e = document.getElementById("audio_element_id");
+        if(e != null){
+            var index = parseInt(e.getAttribute("curSongIndex"));
+            if(index > songs.length - 2) {
+                index = 0;
+            } else {
+                index++;
+            }
+            e.setAttribute("curSongIndex", index);
             N();
-            h()
-        }, true);
-        e.innerHTML = " <p>If you are reading this, it is because your browser does not support the audio element. We recommend that you get a new browser.</p> <p>";
-        document.body.appendChild(e);
+        }
+
+        e.src = i;
         e.play()
     }
  
@@ -713,17 +714,55 @@
             e[n].className = e[n].className.replace(t, "")
         }
     }
- 
+
+    function initAudioEle() {
+        var e = document.getElementById("audio_element_id");
+        if(e === null){
+            e = document.createElement("audio");
+            e.setAttribute("class", l);
+            e.setAttribute("curSongIndex", 0);
+            e.id = "audio_element_id";
+            e.loop = false;
+            e.bgcolor = 0;
+            e.addEventListener("canplay", function() {
+            setTimeout(function() {
+                x(k)
+            }, 500);
+            setTimeout(function() {
+                N();
+                p();
+                for (var e = 0; e < O.length; e++) {
+                    T(O[e])
+                }
+            }, 15500)
+        }, true);
+        e.addEventListener("ended", function() {
+            N();
+            h();
+            go();
+        }, true);
+        e.innerHTML = " <p>If you are reading this, it is because your browser does not support the audio element. We recommend that you get a new browser.</p> <p>";
+        document.body.appendChild(e);
+        }
+    }
+    
+    initAudioEle();
     var e = 30;
     var t = 30;
     var n = 350;
     var r = 350;
-    var i = "//7pumyu.com1.z0.glb.clouddn.com/Harlem-Shake.mp3";
+
+    var curSongIndex = parseInt(document.getElementById("audio_element_id").getAttribute("curSongIndex"));
+    var i = songs[curSongIndex];
+    
     var s = "mw-harlem_shake_me";
     var o = "im_first";
     var u = ["im_drunk", "im_baked", "im_trippin", "im_blown"];
     var a = "mw-strobe_light";
+
+    /* harlem-shake-style.css，替换成你的位置，也可以直接使用：//s3.amazonaws.com/moovweb-marketing/playground/harlem-shake-style.css */
     var f = "//7pumyu.com1.z0.glb.clouddn.com/harlem-shake-style.css";
+    
     var l = "mw_added_css";
     var b = g();
     var w = y();
@@ -751,7 +790,8 @@
             O.push(A)
         }
     }
-})()'><i class="fa fa-music"></i> High</a>
+    })()'><i class="fa fa-music fa-fw"></i>High</a> 
+          <!-- end High一下 -->
           </div>
         
 
